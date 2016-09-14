@@ -1,3 +1,11 @@
 input {
 	width: 50% !important; 
 }
+
+.conover {
+	float: left !important;
+}
+
+.erik {
+	float: right !important;
+}
