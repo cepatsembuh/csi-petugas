@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body align="center">
+	<?php 
+	 // The get method from index.php will coded here
+	 ?>
 	<div class="row">
 		<div class="column">
 			<h4>Pendaftaran Pasien</h4>
