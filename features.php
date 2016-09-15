@@ -9,6 +9,8 @@
 <body align="center">
 	<?php 
 	 // The get method from index.php will coded here
+		$username = $_GET["name"];
+		$password = $_GET["password"];
 	 ?>
 	<div class="row">
 		<div class="column">
