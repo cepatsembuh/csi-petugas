@@ -7,6 +7,10 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<?php 
+  // mysql_connect('https://stronghold-donyriyanto.c9users.io/api.php', 'donyriyanto', '', 'c9')
+  $pasien = array('Andre Christoga', '1234567890123456', '12345678901234567890', 'BPU');
+ ?>
 <center>
 	<h3>Data Pasien Hari Ini</h3>
 </center>	
@@ -21,10 +25,10 @@
   </thead>
   <tbody>
     <tr>
-      <td>Andre Christoga</td>
-      <td>1234567890123456</td>
-      <td>12345678901234567890</td>
-      <td>BPU</td>
+      <td><?php echo $pasien[0]; ?></td>
+      <td><?php echo $pasien[1]; ?></td>
+      <td><?php echo $pasien[2]; ?></td>
+      <td><?php echo $pasien[3]; ?></td>
     </tr>
     <tr>
       <td>Dony Riyanto</td>
