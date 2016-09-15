@@ -7,9 +7,20 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body align="center">
-	<h4>Nomor antrian sekarang</h4>
-	<input type="number" placeholder="Nomor Antrian Sekarang">
-	
-	<button class="button">update</button>
+	<div class="row">
+		<div class="column">
+			<h4>Increment</h4>
+			<form method="post">
+				<input type="submit" class="button button-outline" value="Increment">
+			</form>
+		</div>
+		<div class="column">
+			<h4>Manual</h4>
+			<form method="post">
+				<input type="number" placeholder="Nomor Antrian Sekarang">
+				<input type="submit" class="button button-outline" value="Submit">
+			</form>
+		</div>
+	</div>
 </body>
 </html>
