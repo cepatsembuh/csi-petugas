@@ -9,7 +9,8 @@
 <body>
 <?php 
   // mysql_connect('https://stronghold-donyriyanto.c9users.io/api.php', 'donyriyanto', '', 'c9')
-  $pasien = array('Andre Christoga', '1234567890123456', '12345678901234567890', 'BPU');
+  $pasien1 = array('1', 'Andre Christoga', '1234567890123456', '12345678901234567890', 'Aktif');
+  $pasien2 = array('2', 'Andre Christoga', '0234567890123456', '12345678901234567891', 'Aktif');
  ?>
 <center>
 	<h3>Data Pasien Hari Ini</h3>
@@ -17,24 +18,27 @@
  <table>
   <thead>
     <tr>
+      <th>ID Pasien</th>
       <th>Nama</th>
       <th>NIK</th>
       <th>No BPJS</th>
-      <th>Poli</th>
+      <th>Status</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><?php echo $pasien[0]; ?></td>
-      <td><?php echo $pasien[1]; ?></td>
-      <td><?php echo $pasien[2]; ?></td>
-      <td><?php echo $pasien[3]; ?></td>
+      <td><?php echo $pasien1[0]; ?></td>
+      <td><?php echo $pasien1[1]; ?></td>
+      <td><?php echo $pasien1[2]; ?></td>
+      <td><?php echo $pasien1[3]; ?></td>
+      <td><?php echo $pasien1[4] ?></td>
     </tr>
     <tr>
-      <td>Dony Riyanto</td>
-      <td>09876543210987654</td>
-      <td>098765432109876543210</td>
-      <td>BPG</td>
+      <td><?php echo $pasien2[0]; ?></td>
+      <td><?php echo $pasien2[1]; ?></td>
+      <td><?php echo $pasien2[2]; ?></td>
+      <td><?php echo $pasien2[3]; ?></td>
+      <td><?php echo $pasien2[4]; ?></td>
     </tr>
   </tbody>
 </table>
