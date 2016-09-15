@@ -10,7 +10,7 @@
 <?php 
   // mysql_connect('https://stronghold-donyriyanto.c9users.io/api.php', 'donyriyanto', '', 'c9')
   $pasien1 = array('1', 'Andre Christoga', '1234567890123456', '12345678901234567890', 'Aktif');
-  $pasien2 = array('2', 'Andre Christoga', '0234567890123456', '12345678901234567891', 'Aktif');
+  $pasien2 = array('2', 'Dony Riyanto', '0234567890123456', '12345678901234567891', 'Aktif');
  ?>
 <center>
 	<h3>Data Pasien Hari Ini</h3>
