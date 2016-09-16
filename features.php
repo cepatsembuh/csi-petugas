@@ -15,15 +15,15 @@
 	<div class="row">
 		<div class="column">
 			<h4>Pendaftaran Pasien</h4>
-			<a class="button button-outline">buka</a>
+			<a class="button button-outline" href="daftar.php">buka</a>
 		</div>
 		<div class="column">
 			<h4>Absen Dokter</h4>
-			<a class="button button-outline">buka</a>
+			<a class="button button-outline" href="dokter.php">buka</a>
 		</div>
 		<div class="column">
 			<h4>Data Pasien</h4>
-			<a class="button button-outline">buka</a>
+			<a class="button button-outline" href="table.php">buka</a>
 		</div>
 		<div class="column">
 			<h4>Data Antrian per hari</h4>
