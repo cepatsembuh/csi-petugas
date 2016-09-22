@@ -9,3 +9,8 @@ input {
 .erik {
 	float: right !important;
 }
+
+.dokter {
+	margin-left: 200px;
+	margin-right: 200px;
+}
