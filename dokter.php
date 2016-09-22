@@ -9,9 +9,9 @@
 <body>
 	<div class="dokter">	
 		<input type="checkbox" id="iqbal" class="conover">
-		<label class="label-inline erik" for="iqbal">Dr. Iqbal</label>
+		<label class="label-inline dokter-name" for="iqbal">Dr. Iqbal</label>
 		<input type="checkbox" id="ichsan" class="conover">
-		<label class="label-inline erik" for="ichsan">Dr. Ichsan</label>
+		<label class="label-inline dokter-name" for="ichsan">Dr. Ichsan</label>
 	</div>
 </body>
 </html>
