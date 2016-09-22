@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body align="center">
-	<form action="features.php" method="get">
+	<form action="features.php" method="head">
 		<label for="username">Username:</label>
 		<input type="text" name="username"><br>
 		<label for="password">Password:</label>
