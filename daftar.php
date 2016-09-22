@@ -9,7 +9,7 @@
 <body align="center">
 	<div class="row">
 		<div class="column">
-			<h4>Increment</h4>
+			<h4>Increment (Tambah + 1)</h4>
 			<form method="post">
 				<input type="submit" class="button button-outline" value="Increment">
 			</form>
